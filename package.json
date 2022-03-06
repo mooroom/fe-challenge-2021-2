@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "serve -s",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.0",
     "serve": "^13.0.2"
-  }
+  },
+  "proxy": "https://uikt6pohhh.execute-api.ap-northeast-2.amazonaws.com/dev"
 }
